@@ -1,0 +1,129 @@
+/* --- variables --- */
+
+$primary-color: #0275d8;
+/* ----- -----  */
+
+/* --- general setup --- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+  line-height: 1.6;
+  /* color: black; */
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container {
+  /* height: 100%; */
+  width: 85%;
+  max-width: 65em;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  padding: 0.5em 1.25em;
+  background-color: $primary-color;
+  border-radius: 0.25em;
+  transition: transform 250ms ease-in-out, opacity 250ms linear;
+}
+
+.btn:hover,
+.btn:focus {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.fas {
+  color: $primary-color;
+  font-size: 2.25rem;
+}
+
+.fa-facebook {
+  color: #0275d8;
+  font-size: 1.75rem;
+  margin-top: 0.5rem;
+}
+
+.fa-times {
+  color: white;
+}
+
+/* ----- -----  */
+
+/* --- main wrapper settings --- */
+.main-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+/* ----- -----  */
+
+/* --- covid box --- */
+.covid-box {
+  background-color: white;
+  text-align: center;
+  overflow: hidden;
+}
+/* ----- -----  */
+
+/* --- site title --- */
+.siteTitle {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+/* ----- -----  */
+
+/* --- navigation --- */
+.hamburger {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.fa-bars {
+  color: white;
+  height: 100%;
+  font-size: 1.25rem;
+}
+
+nav {
+  height: 100%;
+}
+
+.navbar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* ----- -----  */
+
+/* ---  --- */
+/* ----- -----  */

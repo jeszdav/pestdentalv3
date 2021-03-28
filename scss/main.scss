@@ -1,15 +1,72 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+@import "config";
+@import "footer";
+@import "menu";
+
+/* --- Header --- */
+
+.header-wrapper {
+  min-height: 100vh;
+  background-image: url(/img/cover.jpg), radial-gradient(#444, #111);
+  background-blend-mode: multiply;
+  background-position: left;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-body {
-  margin: 0;
-  font-family: "Open Sans", sans-serif;
+/* ----- -----  */
+/* --- Hero --- */
+.hero-text {
+  color: white;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
 }
 
-img {
-  max-width: 100%;
-  display: block;
+.hero-content {
+  min-height: calc(100vh - 195.833px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
+
+.hero {
+  text-align: center;
+}
+
+.fa-chevron-down {
+  color: $primary-color;
+  position: absolute;
+  bottom: 0;
+  font-size: 1.25rem;
+}
+
+/* ----- -----  */
+
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* --- contact --- */
+.contact-section {
+}
+
+.contact-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact {
+  &__header {
+    margin: 1rem 0;
+  }
+  &__body a {
+    color: initial;
+    text-decoration: none;
+  }
+}
+/* ----- -----  */

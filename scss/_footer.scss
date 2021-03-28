@@ -1,0 +1,40 @@
+footer {
+  color: white;
+  font-size: 0.9rem;
+  background-color: #1d1c1c;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerContact {
+  &__header {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  &__body ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+  }
+}
+
+.social {
+  text-align: center;
+}
+
+.fa-facebook {
+  width: 100%;
+}
+
+.sitemap {
+  font-size: 0.75rem;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  text-align: center;
+}

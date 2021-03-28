@@ -1,0 +1,58 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.nav__ul {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  list-style-type: none;
+  width: 100vw;
+  opacity: 0.98;
+  transform: translateY(-100%);
+  transition: ease-in-out 0.25s;
+  & li {
+    margin-bottom: 1rem;
+  }
+
+  & li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  &__show {
+    visibility: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: $primary-color;
+    transform: translateY(0);
+    z-index: 2;
+  }
+}
+
+.hamburger {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.closeBtn {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  z-index: 9;
+
+  &__show {
+    display: block;
+  }
+}

@@ -1,3 +1,6 @@
+/* --- variables --- */
+/* ----- -----  */
+/* --- general setup --- */
 *,
 *::before,
 *::after {
@@ -6,12 +9,337 @@
 }
 
 body {
-  margin: 0;
   font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+  line-height: 1.6;
+  /* color: black; */
 }
 
 img {
   max-width: 100%;
   display: block;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container {
+  /* height: 100%; */
+  width: 85%;
+  max-width: 65em;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  padding: 0.5em 1.25em;
+  background-color: #0275d8;
+  border-radius: 0.25em;
+  -webkit-transition: opacity 250ms linear, -webkit-transform 250ms ease-in-out;
+  transition: opacity 250ms linear, -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, opacity 250ms linear;
+  transition: transform 250ms ease-in-out, opacity 250ms linear, -webkit-transform 250ms ease-in-out;
+}
+
+.btn:hover,
+.btn:focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.fas {
+  color: #0275d8;
+  font-size: 2.25rem;
+}
+
+.fa-facebook {
+  color: #0275d8;
+  font-size: 1.75rem;
+  margin-top: 0.5rem;
+}
+
+.fa-times {
+  color: white;
+}
+
+/* ----- -----  */
+/* --- main wrapper settings --- */
+.main-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+/* ----- -----  */
+/* --- covid box --- */
+.covid-box {
+  background-color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* ----- -----  */
+/* --- site title --- */
+.siteTitle {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+/* ----- -----  */
+/* --- navigation --- */
+.hamburger {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fa-bars {
+  color: white;
+  height: 100%;
+  font-size: 1.25rem;
+}
+
+nav {
+  height: 100%;
+}
+
+.navbar {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* ----- -----  */
+/* ---  --- */
+/* ----- -----  */
+footer {
+  color: white;
+  font-size: 0.9rem;
+  background-color: #1d1c1c;
+}
+
+.footer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footerContact__header {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.footerContact__body ul {
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.social {
+  text-align: center;
+}
+
+.fa-facebook {
+  width: 100%;
+}
+
+.sitemap {
+  font-size: 0.75rem;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+}
+
+.nav__ul {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style-type: none;
+  width: 100vw;
+  opacity: 0.98;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: ease-in-out 0.25s;
+  transition: ease-in-out 0.25s;
+}
+
+.nav__ul li {
+  margin-bottom: 1rem;
+}
+
+.nav__ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav__ul__show {
+  visibility: visible;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  background-color: #0275d8;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  z-index: 2;
+}
+
+.hamburger {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.closeBtn {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  z-index: 9;
+}
+
+.closeBtn__show {
+  display: block;
+}
+
+/* --- Header --- */
+.header-wrapper {
+  min-height: 100vh;
+  background-image: url(/img/cover.jpg), radial-gradient(#444, #111);
+  background-blend-mode: multiply;
+  background-position: left;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* ----- -----  */
+/* --- Hero --- */
+.hero-text {
+  color: white;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.hero-content {
+  min-height: calc(100vh - 195.833px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.hero {
+  text-align: center;
+}
+
+.fa-chevron-down {
+  color: #0275d8;
+  position: absolute;
+  bottom: 0;
+  font-size: 1.25rem;
+}
+
+/* ----- -----  */
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* --- contact --- */
+.contact-wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact__header {
+  margin: 1rem 0;
+}
+
+.contact__body a {
+  color: initial;
+  text-decoration: none;
+}
+
+/* ----- -----  */
 /*# sourceMappingURL=main.css.map */
