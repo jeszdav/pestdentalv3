@@ -14,11 +14,19 @@ footer {
   &__header {
     font-size: 1rem;
     text-transform: uppercase;
+    & a {
+      color: white;
+      text-decoration: none;
+    }
   }
   &__body ul {
     padding: 0;
     list-style-type: none;
     text-align: center;
+    & a {
+      color: white;
+      text-decoration: none;
+    }
   }
 }
 

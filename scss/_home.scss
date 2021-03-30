@@ -1,0 +1,124 @@
+/* --- Header --- */
+
+/* --- covid box --- */
+.covid-box {
+  background-color: white;
+  text-align: center;
+}
+/* ----- -----  */
+
+.header-wrapper {
+  min-height: 100vh;
+  background-image: url(/img/cover.jpg), radial-gradient(#444, #111);
+  background-blend-mode: multiply;
+  background-position: left;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* --- site title --- */
+.siteTitle {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  & a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+/* --- navigation --- */
+.hamburger {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  height: 100%;
+}
+
+.navbar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* ----- -----  */
+
+/* --- Hero --- */
+.hero-text {
+  color: white;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.hero-content {
+  min-height: calc(100vh - 195.833px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero {
+  text-align: center;
+}
+
+/* ----- -----  */
+
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* --- contact --- */
+.contact-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact {
+  &__header {
+    margin: 1rem 0;
+  }
+  &__body a {
+    color: initial;
+    text-decoration: none;
+  }
+}
+/* ----- -----  */
+/* --- font awesome icons --- */
+
+.fas {
+  color: $primary-color;
+  font-size: 2.25rem;
+}
+
+.fa-facebook {
+  color: #0275d8;
+  font-size: 1.75rem;
+  margin-top: 0.5rem;
+}
+
+.fa-bars {
+  color: white;
+  height: 100%;
+  font-size: 1.25rem;
+}
+
+.fa-times {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.fa-chevron-down {
+  color: $primary-color;
+  position: absolute;
+  bottom: 0;
+  font-size: 1.25rem;
+}
+/* ----- -----  */

@@ -8,7 +8,7 @@ $(document).ready(function () {
       {
         scrollTop: $(this.hash).offset().top,
       },
-      1000
+      250
     );
   });
 
@@ -17,6 +17,7 @@ $(document).ready(function () {
   const hamburger = document.querySelector(".hamburger");
   const closeBtn = document.querySelector(".closeBtn");
   const navUL = document.querySelector(".nav__ul");
+  const elerhetoseg = document.getElementById("contactMenu");
 
   hamburger.addEventListener("click", () => {
     navUL.classList.toggle("nav__ul__show");
@@ -24,6 +25,11 @@ $(document).ready(function () {
   });
 
   closeBtn.addEventListener("click", () => {
+    navUL.classList.toggle("nav__ul__show");
+    closeBtn.classList.toggle("closeBtn__show");
+  });
+
+  elerhetoseg.addEventListener("click", () => {
     navUL.classList.toggle("nav__ul__show");
     closeBtn.classList.toggle("closeBtn__show");
   });

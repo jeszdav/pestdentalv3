@@ -1,0 +1,71 @@
+body {
+  color: black;
+}
+
+.covid-box-szakembereink {
+  color: white;
+  background-color: $primary-color;
+  text-align: center;
+}
+
+.header-wrapper-szakembereink {
+  min-height: auto;
+  background-image: none;
+  /* background-color: $primary-color; */
+}
+
+.siteTitle-dark {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  & a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.hamburger-dark .fa-bars {
+  color: black;
+}
+
+.section-title {
+  color: $primary-color;
+  font-size: 1.75rem;
+}
+
+.section-subtitle {
+  color: $primary-color;
+  font-weight: 300;
+  font-size: 1.75rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.team-description {
+  margin-top: 1rem;
+}
+
+.team {
+  &__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & img {
+      height: 300px;
+    }
+  }
+  &__name {
+    color: $primary-color;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  &__title {
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: $primary-color;
+    text-transform: uppercase;
+  }
+}
