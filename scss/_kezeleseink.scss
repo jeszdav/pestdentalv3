@@ -1,0 +1,60 @@
+/* --- video wrapper settings --- */
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* ---  --- */
+
+/* --- accordion settings --- */
+#accordion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card {
+  border: none;
+  width: 100%;
+  overflow-wrap: break-word;
+}
+
+.card-header {
+  background-color: white;
+  padding: 0.75rem 0;
+}
+
+#headingEight {
+  border: none;
+}
+
+.section-subtitle {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+.btn-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.btn-link.focus,
+.btn-link:focus {
+  text-decoration: none;
+}
+/* ---  --- */
