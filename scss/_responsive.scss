@@ -9,6 +9,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .header-wrapper {
+    background-attachment: fixed;
+  }
   .siteTitle {
     font-size: 1.75rem;
   }

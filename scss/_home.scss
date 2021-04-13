@@ -9,11 +9,10 @@
 
 .header-wrapper {
   min-height: 100vh;
-  background-image: url(/img/cover.jpg), radial-gradient(#444, #111);
+  background-image: url(../img/cover.jpg), radial-gradient(#444, #111);
   background-blend-mode: multiply;
   background-position: left;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 /* --- site title --- */

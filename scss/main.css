@@ -76,11 +76,10 @@ p {
 /* ----- -----  */
 .header-wrapper {
   min-height: 100vh;
-  background-image: url(/img/cover.jpg), radial-gradient(#444, #111);
+  background-image: url(../img/cover.jpg), radial-gradient(#444, #111);
   background-blend-mode: multiply;
   background-position: left;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 /* --- site title --- */
@@ -640,6 +639,9 @@ table {
 }
 
 @media screen and (min-width: 768px) {
+  .header-wrapper {
+    background-attachment: fixed;
+  }
   .siteTitle {
     font-size: 1.75rem;
   }
