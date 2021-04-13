@@ -217,7 +217,7 @@ nav {
 /* ----- -----  */
 footer {
   color: white;
-  font-size: 0.9rem;
+  font-size: 1rem;
   background-color: #1d1c1c;
 }
 
@@ -235,7 +235,7 @@ footer {
 }
 
 .footerContact__header {
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
 }
 
@@ -264,12 +264,26 @@ footer {
 }
 
 .sitemap {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
 }
 
 .copyright {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   text-align: center;
+}
+
+.siteTitle-dark {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.siteTitle-dark a {
+  text-decoration: none;
+  color: black;
+}
+
+.hamburger-dark .fa-bars {
+  color: black;
 }
 
 .navbar {
@@ -279,6 +293,7 @@ footer {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   position: relative;
+  padding: 0;
 }
 
 .nav__ul {
@@ -339,8 +354,8 @@ footer {
 .closeBtn {
   display: none;
   position: fixed;
-  top: 120px;
-  right: 42px;
+  top: 117px;
+  right: 29px;
   cursor: pointer;
   z-index: 9;
 }
@@ -363,20 +378,6 @@ body {
   min-height: auto;
   background-image: none;
   /* background-color: $primary-color; */
-}
-
-.siteTitle-dark {
-  font-size: 1.5rem;
-  text-transform: uppercase;
-}
-
-.siteTitle-dark a {
-  text-decoration: none;
-  color: black;
-}
-
-.hamburger-dark .fa-bars {
-  color: black;
 }
 
 .section-title {
@@ -593,5 +594,92 @@ table {
   margin-top: 0.5rem;
   width: 100%;
   border-bottom: 1px solid white;
+}
+
+.penztarak__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (18rem)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 18rem);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.penztar-box {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.penztar-box img {
+  max-width: 70%;
+}
+
+.penztar-box a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.penztarak__payment a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 576px) {
+  .fa-chevron-down {
+    bottom: -2rem;
+  }
+  .closeBtn {
+    top: 85px;
+    right: 42px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .siteTitle {
+    font-size: 1.75rem;
+  }
+  .siteTitle-dark {
+    font-size: 1.75rem;
+  }
+  .fa-bars {
+    font-size: 1.5rem;
+  }
+  .closeBtn {
+    top: 85px;
+    right: 57px;
+  }
+  .penztar-box img {
+    max-width: 55%;
+  }
+  .btn-link {
+    font-size: 1.25rem;
+  }
+  .penztarak__list {
+    -ms-grid-columns: (20rem)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 20rem);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .closeBtn {
+    top: 85px;
+    right: 80px;
+  }
+  .penztarak__list {
+    -ms-grid-columns: (25rem)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 25rem);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .closeBtn {
+    top: 85px;
+    right: 92px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

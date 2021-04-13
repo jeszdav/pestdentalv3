@@ -1,0 +1,58 @@
+@media screen and (min-width: 576px) {
+  .fa-chevron-down {
+    bottom: -2rem;
+  }
+  .closeBtn {
+    top: 85px;
+    right: 42px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .siteTitle {
+    font-size: 1.75rem;
+  }
+
+  .siteTitle-dark {
+    font-size: 1.75rem;
+  }
+
+  .fa-bars {
+    font-size: 1.5rem;
+  }
+
+  .closeBtn {
+    top: 85px;
+    right: 57px;
+  }
+  .penztar-box img {
+    max-width: 55%;
+  }
+
+  .btn-link {
+    font-size: 1.25rem;
+  }
+
+  .penztarak__list {
+    grid-template-columns: repeat(auto-fit, 20rem);
+  }
+}
+@media screen and (min-width: 992px) {
+  .closeBtn {
+    top: 85px;
+    right: 80px;
+  }
+  .penztarak__list {
+    grid-template-columns: repeat(auto-fit, 25rem);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .closeBtn {
+    top: 85px;
+    right: 92px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+}

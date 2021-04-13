@@ -1,6 +1,6 @@
 footer {
   color: white;
-  font-size: 0.9rem;
+  font-size: 1rem;
   background-color: #1d1c1c;
 }
 
@@ -12,7 +12,7 @@ footer {
 
 .footerContact {
   &__header {
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
     & a {
       color: white;
@@ -39,10 +39,10 @@ footer {
 }
 
 .sitemap {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
 }
 
 .copyright {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   text-align: center;
 }

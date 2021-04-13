@@ -14,19 +14,6 @@ body {
   /* background-color: $primary-color; */
 }
 
-.siteTitle-dark {
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  & a {
-    text-decoration: none;
-    color: black;
-  }
-}
-
-.hamburger-dark .fa-bars {
-  color: black;
-}
-
 .section-title {
   color: $primary-color;
   font-size: 1.75rem;

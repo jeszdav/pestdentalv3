@@ -1,7 +1,21 @@
+.siteTitle-dark {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  & a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.hamburger-dark .fa-bars {
+  color: black;
+}
+
 .navbar {
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  padding: 0;
 }
 
 .nav__ul {
@@ -48,8 +62,8 @@
 .closeBtn {
   display: none;
   position: fixed;
-  top: 120px;
-  right: 42px;
+  top: 117px;
+  right: 29px;
   cursor: pointer;
   z-index: 9;
 
