@@ -173,6 +173,10 @@ nav {
           justify-content: space-between;
 }
 
+.contact {
+  font-size: 1.4rem;
+}
+
 .contact__header {
   margin: 1rem 0;
 }
@@ -186,7 +190,7 @@ nav {
 /* --- font awesome icons --- */
 .fas {
   color: #0275d8;
-  font-size: 2.25rem;
+  font-size: 3rem;
 }
 
 .fa-facebook {
@@ -505,6 +509,10 @@ p {
 }
 
 /* ---  --- */
+.prices-intro {
+  margin-top: 1rem;
+}
+
 .btn-link {
   text-align: left;
 }
