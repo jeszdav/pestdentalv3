@@ -13,7 +13,7 @@
 
 .navbar {
   display: flex;
-  flex-wrap: wrap;
+  /*  flex-wrap: wrap; */
   position: relative;
   padding: 0;
 }
@@ -70,4 +70,14 @@
   &__show {
     display: block;
   }
+}
+
+.fa-phone-alt {
+  color: white;
+  display: inline-block;
+  font-size: 1.4rem;
+}
+
+.darkphone {
+  color: $primary-color;
 }

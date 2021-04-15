@@ -181,6 +181,11 @@ nav {
   margin: 1rem 0;
 }
 
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
 .contact__body a {
   color: initial;
   text-decoration: none;
@@ -293,8 +298,7 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  /*  flex-wrap: wrap; */
   position: relative;
   padding: 0;
 }
@@ -367,17 +371,27 @@ footer {
   display: block;
 }
 
+.fa-phone-alt {
+  color: white;
+  display: inline-block;
+  font-size: 1.4rem;
+}
+
+.darkphone {
+  color: #0275d8;
+}
+
 body {
   color: black;
 }
 
-.covid-box-szakembereink {
+.covid-box-dark {
   color: white;
   background-color: #0275d8;
   text-align: center;
 }
 
-.header-wrapper-szakembereink {
+.header-wrapper-dark {
   min-height: auto;
   background-image: none;
   /* background-color: $primary-color; */
