@@ -63,3 +63,13 @@ p {
 .spacing > * + * {
   margin-top: 1rem;
 }
+
+/* --- dark covid-box --- */
+
+.covid-box-dark {
+  font-weight: 700;
+  color: white;
+  background-color: $primary-color;
+  text-align: center;
+}
+/* ----- -----  */

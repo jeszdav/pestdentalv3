@@ -2,9 +2,11 @@
 
 /* --- covid box --- */
 .covid-box {
+  font-weight: 700;
   background-color: white;
   text-align: center;
 }
+
 /* ----- -----  */
 
 .header-wrapper {
@@ -124,5 +126,10 @@ nav {
   position: absolute;
   bottom: 0;
   font-size: 1.25rem;
+}
+
+.fa-phone-alt {
+  color: white !important;
+  font-size: 1.4rem !important;
 }
 /* ----- -----  */

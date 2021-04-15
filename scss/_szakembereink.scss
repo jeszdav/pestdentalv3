@@ -2,16 +2,14 @@ body {
   color: black;
 }
 
-.covid-box-dark {
-  color: white;
-  background-color: $primary-color;
-  text-align: center;
-}
-
 .header-wrapper-dark {
   min-height: auto;
   background-image: none;
   /* background-color: $primary-color; */
+}
+
+.darkphone {
+  color: $primary-color !important;
 }
 
 .section-title {
