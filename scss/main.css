@@ -131,6 +131,13 @@ nav {
           align-items: center;
 }
 
+/* .menuBar {
+  display: flex;
+}
+
+.phoneHeader {
+  margin-right: 1rem;
+} */
 /* ----- -----  */
 /* --- Hero --- */
 .hero-text {
@@ -233,8 +240,8 @@ nav {
 }
 
 .fa-phone-alt {
-  color: white !important;
-  font-size: 1.4rem !important;
+  color: white;
+  font-size: 1.7rem;
 }
 
 /* ----- -----  */
