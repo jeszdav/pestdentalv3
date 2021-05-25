@@ -1,14 +1,7 @@
-@media screen and (min-width: 576px) {
-  .fa-chevron-down {
-    bottom: -2rem;
-  }
-  .closeBtn {
-    top: 85px;
-    right: 42px;
-  }
+@include media-sm {
 }
 
-@media screen and (min-width: 768px) {
+@include media-md {
   .header-wrapper {
     background-attachment: fixed;
   }
@@ -39,23 +32,119 @@
   .penztarak__list {
     grid-template-columns: repeat(auto-fit, 20rem);
   }
-}
-@media screen and (min-width: 992px) {
-  .closeBtn {
-    top: 85px;
-    right: 80px;
+  .stockImg {
+    width: 40%;
   }
+
+  .stockImgLarge {
+    width: 55%;
+  }
+}
+
+@include media-lg {
+  .navbar {
+    align-items: center;
+  }
+
+  .logo {
+    width: 10rem;
+  }
+  .hamburger {
+    display: none;
+  }
+
+  /* Home page navbar dark*/
+  .nav__ul__desktop__dark {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 2rem;
+    width: 70%;
+
+    & li {
+      font-size: 1rem;
+      text-transform: uppercase;
+    }
+
+    & li a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      transition: 0.3s;
+      &:hover {
+        color: $primary-color;
+      }
+    }
+
+    list-style-type: none;
+  }
+
+  .card img {
+    width: 65%;
+  }
+
+  .stockImg {
+    width: 25% !important;
+  }
+
+  .stockImgLarge {
+    width: 50% !important;
+  }
+
+  /* Bright Navbar*/
+
+  .nav__ul__desktop__bright {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 2rem;
+    width: 70%;
+
+    & li {
+      font-size: 1rem;
+      text-transform: uppercase;
+    }
+
+    & li a {
+      color: black;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      transition: 0.3s;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+
+    .active {
+      color: $primary-color;
+    }
+
+    list-style-type: none;
+  }
+
   .penztarak__list {
     grid-template-columns: repeat(auto-fit, 25rem);
   }
-}
+  .fa-chevron-down {
+    bottom: -1rem;
+  }
 
-@media screen and (min-width: 1200px) {
-  .closeBtn {
-    top: 85px;
-    right: 92px;
+  .contact {
+    text-align: center;
   }
 }
 
-@media screen and (min-width: 1400px) {
+@include media-xl {
+  /* Home page navbar */
+  .nav__ul__desktop__dark {
+    & li {
+      font-size: 1rem;
+    }
+  }
+
+  /* Bright Navbar*/
+  .nav__ul__desktop__bright {
+    & li {
+      font-size: 1rem;
+    }
+  }
 }

@@ -18,16 +18,28 @@
 }
 
 /* --- site title --- */
-.siteTitle {
+/* .siteTitle {
   font-size: 1.5rem;
   text-transform: uppercase;
   & a {
     text-decoration: none;
     color: white;
   }
-}
+} */
+
+/* .logo {
+  width: 9rem;
+} */
 
 /* --- navigation --- */
+.nav__ul__desktop__dark {
+  display: none;
+}
+
+.contact__main {
+  display: none;
+}
+
 .hamburger {
   height: 100%;
   display: flex;
@@ -42,22 +54,13 @@ nav {
   color: white;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
-
-/* .menuBar {
-  display: flex;
-}
-
-.phoneHeader {
-  margin-right: 1rem;
-} */
-/* ----- -----  */
 
 /* --- Hero --- */
 .hero-text {
   color: white;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
 }
@@ -113,7 +116,7 @@ nav {
 }
 
 .fa-facebook {
-  color: #0275d8;
+  color: white;
   font-size: 1.75rem;
   margin-top: 0.5rem;
 }
