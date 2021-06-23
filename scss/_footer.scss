@@ -16,6 +16,7 @@ footer {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 400;
+    text-align: center;
     & a {
       color: white;
       text-decoration: none;
@@ -47,4 +48,7 @@ footer {
 .copyright {
   font-size: 0.8rem;
   text-align: center;
+  & p {
+    margin: 0;
+  }
 }
